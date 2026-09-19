@@ -1,0 +1,9 @@
+/build*/
+/dist/
+/_deps/
+*.user
+*.log
+*.status.txt
+SMTVVFirstPerson.ini
+__pycache__/
+*.pyc

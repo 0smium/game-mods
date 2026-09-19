@@ -1,0 +1,6 @@
+; Documentation template; the mod creates SMTVVFirstPerson.ini on first use.
+; Runtime keyboard changes are saved automatically. Manual edits load on restart.
+[Camera]
+EyeOffsetCm=40
+FovDegrees=110
+BobAmplitudeCm=5
