@@ -1,28 +1,18 @@
-Licensing by mod and shared component / 按模组及共用组件适用许可
+License index / 许可索引
 
-Game directories organize files; they do not assign a license to every mod
-for that game. Each mod or shared component has its own license scope.
-The licenses below are not interchangeable options for the same code.
+Each mod is licensed separately; game folders are only categories.
+各模组独立授权，游戏目录仅用于分类。
 
-Current scopes:
-- mods/smtvv/first-person/: MIT; see LICENSE-MIT.
-- mods/smtvv/garden-freecam-visibility/: MIT; see LICENSE-MIT.
-- mods/smtvv/common/: MIT; see LICENSE-MIT and applicable third-party notices.
-- mods/p5r/first-person/: GPL-3.0-or-later; see its LICENSE and
-  THIRD_PARTY_NOTICES.md. LICENSE-GPL-3.0 is a root-level copy of that text.
-- Other original repository files: MIT unless explicitly stated otherwise.
-- Third-party code retains its own copyright notices and license terms.
+MIT — licenses/LICENSE-MIT
+  mods/smtvv/first-person/
+  mods/smtvv/garden-freecam-visibility/
+  mods/smtvv/common/
 
-New mods must state their license explicitly. A new P5R mod is not covered by
-First Person Camera's GPL solely because it is in the same game directory.
-Reused code and dependencies still carry their applicable license obligations.
-The MIT license does not override First Person Camera's GPL terms; its releases
-include a separate corresponding-source archive.
+GPL-3.0-or-later — mods/p5r/first-person/LICENSE
+  mods/p5r/first-person/
 
-游戏目录只用于分类，不统一决定该游戏下所有模组的许可。
-当前许可范围：SMTVV 第一人称、庭院自由视角防透明、共用组件分别采用 MIT；
-P5R First Person Camera 采用 GPL-3.0-or-later。
-新增模组须明确声明自己的许可，不因放在同一游戏目录就继承其他模组的许可；
-复用代码及依赖仍须遵循相应许可。其他原创仓库文件未另行声明时采用 MIT，
-第三方内容遵循各自许可。这不是同一份代码可以任选 MIT 或 GPL。
-MIT 不覆盖 First Person Camera 的 GPL 条款；该模组发布包另附对应源码。
+Other original repository files use MIT unless stated otherwise.
+New mods must declare their license. Third-party terms remain applicable.
+其他原创仓库文件默认 MIT；新模组须声明许可，第三方内容遵循原许可。
+
+Credits / 第三方声明: THIRD_PARTY_NOTICES.md
