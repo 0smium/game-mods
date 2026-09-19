@@ -2,7 +2,7 @@
 
 Explore in first person, adjust the camera to your liking, and keep nearby Demon Haunt companions visible. Includes the purple-form sprint effect fix.
 
-[中文](README.zh-CN.md) · [Download](https://github.com/0smium/game-mods/releases/download/smtvv-v1.0.0-rc1/SMTVV-FirstPerson-1.0.0-rc1.zip)
+[中文](README.zh-CN.md) · [Download](https://github.com/0smium/game-mods/releases/download/smtvv-v1.0.0-rc1-r2/SMTVV-FirstPerson-1.0.0-rc1-r2.zip)
 
 ## Install
 

@@ -1,0 +1,32 @@
+SMTVV First Person / 第一人称
+
+First-person exploration with nearby Demon Haunt companions kept visible.
+第一人称探索，贴近庭院恶魔时保持可见。
+
+INSTALL / 安装
+1. Close the game. Extract the Project folder into the game folder.
+   关闭游戏，把 Project 文件夹解压到游戏目录。
+2. If you have no ASI loader, copy Optional-ASI-Loader/dsound.dll into
+   Project/Binaries/Win64. Keep an existing loader; do not overwrite it.
+   没有 ASI 加载器时，再把附带的 dsound.dll 复制到上述目录；已有则沿用。
+3. Launch normally through Steam. 从 Steam 正常启动即可。
+
+REMOVE / 卸载
+Close the game and delete this mod's .asi file. Keep SMTVVCameraRuntime.dll
+while either camera mod is installed. Keep the loader if other mods use it.
+关闭游戏，删除本模组的 .asi；另一份相机模组仍在时保留共同 DLL。
+其他模组仍用加载器时，不要删除加载器。
+
+Windows x64 / Steam. Both camera mods can be used together.
+适用于 Windows Steam 版，两份模组可以同时使用。
+More / 详细说明: https://github.com/0smium/game-mods
+
+CONTROLS / 按键
+F3: Toggle first person / 第一人称开关（默认开启，跨图保留）
+F4: Eye height +1 cm / 眼高增加 1 cm
+F5: FOV +1 degree / FOV 增加 1 度
+F6: Head bob +0.25 cm / 晃动增加 0.25 cm
+Shift: Decrease / 反向调整
+Ctrl: Larger step / 大步调整
+Ctrl+F3: Reset defaults / 恢复默认（眼高偏移 +40 cm、FOV 110、晃动 5 cm）
+Settings save automatically. Bob 0 disables bob. / 参数自动保存，晃动 0 即关闭。
