@@ -13,3 +13,5 @@ These are the maintainer's publication preferences. Read before changing packagi
 - Preserve other sessions' uncommitted work. Stage only the authorized module and intended edits. A release request for one game is not authorization to publish another game's pending work.
 - Respect the latest publication authorization and visibility preference. Do not repeatedly ask for permission already given. Describe testing accurately and update stale pending-test claims when feedback arrives.
 - Nexus pages should list real player dependencies, accurate license permissions and current required disclosure tags. Use real gameplay images; keep submission drafts outside player packages.
+
+- Player-facing mod folders use readable product names (for example `P5RFirstPersonCamera`), not internal reverse-domain ModIds. Preserve game-required installation paths; keep stable internal IDs inside ModConfig.json.

@@ -6,7 +6,7 @@
 
 ## 安装
 
-把 `osmium.p5r.firstperson` 解压到 Reloaded-II 的 `Mods` 文件夹，
+把 `P5RFirstPersonCamera` 解压到 Reloaded-II 的 `Mods` 文件夹，
 为 P5R 勾选 **First Person Camera**，从启动器进入游戏。
 先停用其他第一人称模组。不需要 Persona Essentials 或调试菜单。
 适用于 Windows x64、Steam 构建 15515071；启停模组需要重启游戏。

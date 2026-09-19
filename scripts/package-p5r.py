@@ -58,7 +58,7 @@ for kind in ('Reloaded-II',):
     path=dist/f'P5R-FirstPersonCamera-1.0.0-rc1-{kind}.zip';files=dict(common)
     files['P5RFirstPersonCamera.dll']=binary.read_bytes();files['ModConfig.json']=(mod/'ModConfig.json').read_bytes()
     with zipfile.ZipFile(path,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
-        for name,data in files.items():z.writestr(('osmium.p5r.firstperson/' if kind=='Reloaded-II' else '')+name,data)
+        for name,data in files.items():z.writestr(('P5RFirstPersonCamera/' if kind=='Reloaded-II' else '')+name,data)
     with zipfile.ZipFile(path) as z:assert z.testzip() is None
     results.append({'path':str(path),'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'bytes':path.stat().st_size})
 manifest={'version':'1.0.0-rc1','status':'local candidate; controller and mouse acceptance passed; not published','binarySha256':hashlib.sha256(binary.read_bytes()).hexdigest(),'packages':results,'source':str(source_path),'sourceSha256':hashlib.sha256(source.getvalue()).hexdigest()}

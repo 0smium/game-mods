@@ -8,7 +8,7 @@ Explore in first person with adjustable eye height, FOV and head bob.
 
 ## Install
 
-Extract the `osmium.p5r.firstperson` folder into Reloaded-II's `Mods` directory,
+Extract the `P5RFirstPersonCamera` folder into Reloaded-II's `Mods` directory,
 enable **First Person Camera** for P5R, and launch through Reloaded-II.
 Disable other first-person camera mods first. No Persona Essentials or debug menu
 is required. Windows x64, Steam build 15515071. Restart to enable/disable the mod.

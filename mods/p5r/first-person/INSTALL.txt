@@ -1,8 +1,9 @@
 First Person Camera — Persona 5 Royal
 
 INSTALL
-Extract osmium.p5r.firstperson into Reloaded-II's Mods folder. Enable First
+Extract P5RFirstPersonCamera into Reloaded-II's Mods folder. Enable First
 Person Camera for Persona 5 Royal and launch through Reloaded-II.
+Updating: replace the previous mod folder; do not keep both folder names.
 Disable other first-person/player-camera mods first. No Persona Essentials,
 debug menu, graphics injector or extra ASI loader is required by this mod.
 Windows x64, Steam build 15515071. Restart the game after enabling/disabling.
@@ -21,8 +22,9 @@ Joker is hidden to avoid obstruction; no visible arms/body are included.
 To uninstall, remove this mod folder. GPL license/credits: LICENSES.txt.
 Corresponding source is supplied separately as P5R-FirstPersonCamera-Source.zip.
 
-安装：把 osmium.p5r.firstperson 文件夹解压到 Reloaded-II 的 Mods 目录，
+安装：把 P5RFirstPersonCamera 文件夹解压到 Reloaded-II 的 Mods 目录，
 为 P5R 勾选 First Person Camera，从启动器进入游戏。先停用其他第一人称模组。
+更新时替换原模组文件夹，不要保留新旧两份。
 不需要 Persona Essentials、调试菜单、画质工具或额外 ASI 加载器。
 
 鼠标或右摇杆控制视角，菜单与失焦时暂停鼠标转向。
