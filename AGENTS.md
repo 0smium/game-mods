@@ -7,7 +7,7 @@ These are the maintainer's publication preferences. Read before changing packagi
 - Keep player pages focused on purpose, installation and controls. Put build details, architecture, checksums and validation evidence in developer documentation.
 - Release text should describe the mod and link to installation instructions. Include actual user-visible changes when relevant; omit agent work logs and packaging/editorial process narratives.
 - Keep download ZIPs small in structure: runtime files, a required optional loader where applicable, one short installation guide and consolidated license notices. Do not include development logs, validation reports, manifests or duplicate guides.
-- Preserve every required copyright/license notice and any source-distribution obligations. Each game/module's license applies independently; do not assume the root MIT license covers every module.
+- Preserve every required copyright/license notice and any source-distribution obligations. License each mod and shared component independently. Game folders are organizational, not license boundaries. Declare new mods explicitly; do not infer a new mod's license from another mod for the same game.
 - Prepare one finished package before publishing. Avoid multiple public downloads for editorial or packaging-only variants of the same mod. Keep genuinely different functional release history.
 - Before replacing an erroneous published package, keep a recoverable local copy, verify the replacement and update checksums and download links. Do not remove unrelated releases or Git history.
 - For packaging-only changes, verify archive contents, unchanged runtime binaries and complete licenses; do not redeploy the game just for documentation changes.
