@@ -1,0 +1,17 @@
+{
+  "ModId": "osmium.p5r.firstperson",
+  "ModName": "First Person Camera",
+  "ModAuthor": "Osmium",
+  "ModVersion": "1.0.0-rc1",
+  "ModDescription": "Explore in first person with adjustable eye height, FOV and head bob. F3-F6 controls; settings save automatically.",
+  "ModDll": "",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "P5RFirstPersonCamera.dll",
+  "CanUnload": false,
+  "HasExports": false,
+  "IsLibrary": false,
+  "ModDependencies": [],
+  "OptionalDependencies": [],
+  "SupportedAppId": ["p5r.exe"],
+  "PluginData": {}
+}

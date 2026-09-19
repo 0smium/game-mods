@@ -1,0 +1,35 @@
+First Person Camera — Persona 5 Royal
+
+INSTALL
+Extract osmium.p5r.firstperson into Reloaded-II's Mods folder. Enable First
+Person Camera for Persona 5 Royal and launch through Reloaded-II.
+Disable other first-person/player-camera mods first. No Persona Essentials,
+debug menu, graphics injector or extra ASI loader is required by this mod.
+Windows x64, Steam build 15515071. Restart the game after enabling/disabling.
+
+CONTROLS
+Mouse movement or controller right stick controls the view.
+Starts in first person. F3 switches first/third person; normal map changes
+retain your choice. F4: eye height +1 cm; F5: FOV +1 degree; F6: bob +0.25 cm.
+Shift: decrease. Ctrl: larger steps (5 cm / 5 degrees / 1 cm).
+Ctrl+F3: reset to 165 cm / 110 degrees / 5 cm. Bob 0 disables it.
+Values save automatically beside the mod in P5RFirstPersonCamera.ini.
+Eye height is measured above Joker's root, unlike SMTVV's eye offset.
+
+For exploration. Keeps native battles and unsupported cinematic cameras.
+Joker is hidden to avoid obstruction; no visible arms/body are included.
+To uninstall, remove this mod folder. GPL license/credits: LICENSES.txt.
+Corresponding source is supplied separately as P5R-FirstPersonCamera-Source.zip.
+
+安装：把 osmium.p5r.firstperson 文件夹解压到 Reloaded-II 的 Mods 目录，
+为 P5R 勾选 First Person Camera，从启动器进入游戏。先停用其他第一人称模组。
+不需要 Persona Essentials、调试菜单、画质工具或额外 ASI 加载器。
+
+鼠标或右摇杆控制视角，菜单与失焦时暂停鼠标转向。
+默认第一人称；F3 开关，正常切图保留本次选择。
+F4 眼高 +1 cm，F5 FOV +1°，F6 晃动 +0.25 cm。
+Shift 反向，Ctrl 大步（5 cm／5°／1 cm），两者同时按则大步减少。
+Ctrl+F3 恢复默认 165 cm／110°／5 cm；晃动为 0 关闭。参数自动保存。
+P5R 眼高从 Joker 根节点计算，与 SMTVV 的眼高偏移不同。
+用于探索；正式战斗和无法接管的演出保留原版。隐藏 Joker，不显示身体或手臂。
+卸载时移除此模组文件夹；详细许可与致谢见 LICENSES.txt，对应源码另附。

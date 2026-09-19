@@ -48,3 +48,6 @@ foreach(feature IN ITEMS FirstPerson GardenFreecam)
   target_link_libraries(SMTVV${feature} PRIVATE SMTVVCameraRuntime)
   set_target_properties(SMTVV${feature} PROPERTIES PREFIX "" SUFFIX ".asi")
 endforeach()
+
+enable_testing()
+add_subdirectory(mods/p5r/first-person)

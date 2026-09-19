@@ -1,6 +1,8 @@
 # Third-party notices
 
-Our source is MIT licensed; retain upstream notices when redistributing.
+SMTVV source is MIT licensed; retain upstream notices when redistributing.
+The separate P5R camera module is GPL-3.0-or-later; see
+`mods/p5r/first-person/THIRD_PARTY_NOTICES.md` and its `LICENSE`.
 
 | Component | Source/revision | License |
 | --- | --- | --- |

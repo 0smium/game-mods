@@ -15,6 +15,9 @@ jobs:
       - name: Fetch pinned dependencies and build
         shell: pwsh
         run: ./build.ps1
+      - name: P5R camera regression checks
+        shell: pwsh
+        run: ctest --test-dir build -C Release --output-on-failure
       - uses: actions/upload-artifact@v4
         with:
           name: smtvv-camera-binaries
@@ -22,3 +25,4 @@ jobs:
             build/Release/SMTVVCameraRuntime.dll
             build/Release/SMTVVFirstPerson.asi
             build/Release/SMTVVGardenFreecam.asi
+            build/mods/p5r/first-person/Release/P5RFirstPersonCamera.dll

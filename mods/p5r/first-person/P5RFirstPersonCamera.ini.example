@@ -1,0 +1,7 @@
+[Camera]
+; Height above Joker's root, NOT SMTVV's eye offset. Range 100..220.
+EyeHeightCm=165
+; Horizontal FOV, degrees. Range 60..140.
+FovDegrees=110
+; Vertical bob amplitude; 0 disables it. Range 0..10.
+BobAmplitudeCm=5
