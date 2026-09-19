@@ -25,7 +25,7 @@ across normal map changes.
 | F6 | Head bob +0.25 cm | 5 cm |
 
 **Shift** decreases; **Ctrl** uses larger steps (5 cm / 5° / 1 cm).
-**Ctrl+F3** resets all three. Bob 0 disables it. Changes save automatically to
+Hold both for a larger decrease. **Ctrl+F3** resets all three. Bob 0 disables it. Changes save automatically to
 `P5RFirstPersonCamera.ini` beside the mod. Height uses a different reference from SMTVV.
 
 For exploration. Native battles and unsupported cinematic cameras are retained.

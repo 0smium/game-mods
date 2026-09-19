@@ -3,6 +3,7 @@
 These are the maintainer's publication preferences. Read before changing packaging, repository presentation or release pages.
 
 - Keep About generic: `Open-source game mods by Osmium, organized by game.` List games and mods in the README directory, not in About.
+- Keep English and Chinese player instructions semantically aligned: scope, requirements, controls, defaults and limitations. Review both when changing either.
 - Keep player pages focused on purpose, installation and controls. Put build details, architecture, checksums and validation evidence in developer documentation.
 - Release text should describe the mod and link to installation instructions. Include actual user-visible changes when relevant; omit agent work logs and packaging/editorial process narratives.
 - Keep download ZIPs small in structure: runtime files, a required optional loader where applicable, one short installation guide and consolidated license notices. Do not include development logs, validation reports, manifests or duplicate guides.

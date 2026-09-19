@@ -2,6 +2,8 @@
 
 以第一人称探索，可调眼高、FOV 和步态晃动。
 
+[English](README.md)
+
 [下载](https://github.com/0smium/game-mods/releases/tag/p5r-v1.0.0-rc1) · [Reloaded-II](https://github.com/Reloaded-Project/Reloaded-II/releases)
 
 ## 安装
@@ -30,6 +32,7 @@
 
 ## 致谢与许可
 
-感谢 **rirurin/p5r-freecam、OpenGFD、SafetyHook、Zydis、Zycore**。
-采用 GPL-3.0-or-later，详见本模块 LICENSE 与第三方声明。
+相机／引擎研究：**rirurin/p5r-freecam** 与 **OpenGFD**。
+函数接入：**SafetyHook、Zydis、Zycore**。
+采用 GPL-3.0-or-later，详见本模块 `LICENSE` 与 `THIRD_PARTY_NOTICES.md`。
 对应源码另附 `P5R-FirstPersonCamera-Source.zip`。

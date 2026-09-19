@@ -10,9 +10,11 @@ Windows x64, Steam build 15515071. Restart the game after enabling/disabling.
 
 CONTROLS
 Mouse movement or controller right stick controls the view.
+Mouse look pauses in menus and while the game is unfocused.
 Starts in first person. F3 switches first/third person; normal map changes
 retain your choice. F4: eye height +1 cm; F5: FOV +1 degree; F6: bob +0.25 cm.
 Shift: decrease. Ctrl: larger steps (5 cm / 5 degrees / 1 cm).
+Hold both for a larger decrease.
 Ctrl+F3: reset to 165 cm / 110 degrees / 5 cm. Bob 0 disables it.
 Values save automatically beside the mod in P5RFirstPersonCamera.ini.
 Eye height is measured above Joker's root, unlike SMTVV's eye offset.
@@ -26,12 +28,13 @@ Corresponding source is supplied separately as P5R-FirstPersonCamera-Source.zip.
 为 P5R 勾选 First Person Camera，从启动器进入游戏。先停用其他第一人称模组。
 更新时替换原模组文件夹，不要保留新旧两份。
 不需要 Persona Essentials、调试菜单、画质工具或额外 ASI 加载器。
+适用于 Windows x64、Steam 构建 15515071；启停模组后需重启游戏。
 
 鼠标或右摇杆控制视角，菜单与失焦时暂停鼠标转向。
 默认第一人称；F3 开关，正常切图保留本次选择。
 F4 眼高 +1 cm，F5 FOV +1°，F6 晃动 +0.25 cm。
 Shift 反向，Ctrl 大步（5 cm／5°／1 cm），两者同时按则大步减少。
-Ctrl+F3 恢复默认 165 cm／110°／5 cm；晃动为 0 关闭。参数自动保存。
+Ctrl+F3 恢复默认 165 cm／110°／5 cm；晃动为 0 关闭。参数自动保存到模组旁的 P5RFirstPersonCamera.ini。
 P5R 眼高从 Joker 根节点计算，与 SMTVV 的眼高偏移不同。
 用于探索；正式战斗和无法接管的演出保留原版。隐藏 Joker，不显示身体或手臂。
-卸载时移除此模组文件夹；详细许可与致谢见 LICENSES.txt，对应源码另附。
+卸载时移除此模组文件夹；详细许可与致谢见 LICENSES.txt，对应源码另附 P5R-FirstPersonCamera-Source.zip。
