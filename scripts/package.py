@@ -17,7 +17,7 @@ assert common[:2] == b'MZ', 'Build the runtime first'
 out = repo / 'dist' / version
 out.mkdir(parents=True, exist_ok=True)
 # Keep complete license texts and attribution, combined into one file.
-license_sources = [repo / 'LICENSE', *sorted((repo / 'licenses').glob('*.txt'))]
+license_sources = [repo / 'LICENSE-MIT', *sorted((repo / 'licenses').glob('*.txt'))]
 license_text = '\n\n'.join(
     p.name + '\n' + p.read_text(encoding='utf-8') for p in license_sources
 )

@@ -27,6 +27,6 @@ Windows runs additionally exercise keyboard polling and INI persistence using si
 - `tests/`, `scripts/`: regression checks and packaging tools.
 - `licenses/`: third-party license texts, also included in release packages.
 
-[Runtime notes](../mods/smtvv/common/README.md) · [Validation](validation.md) · [Credits](../THIRD_PARTY_NOTICES.md) · [MIT license](../LICENSE)
+[Runtime notes](../mods/smtvv/common/README.md) · [Validation](validation.md) · [Credits](../THIRD_PARTY_NOTICES.md) · [Licensing by component](../LICENSE)
 
 Code and documentation were developed with substantial generative-AI assistance, guided by the author's design decisions and in-game testing.

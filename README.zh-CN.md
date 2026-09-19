@@ -1,6 +1,6 @@
 # 游戏模组
 
-[Osmium](https://github.com/0smium) 的游戏模组。SMTVV 模块采用 MIT；P5R 相机模块采用 GPL-3.0-or-later，详见各模块许可。
+[Osmium](https://github.com/0smium) 的游戏模组。SMTVV 模块采用 MIT；P5R 相机模块采用 GPL-3.0-or-later，详见[许可范围](LICENSE)。各模块分别授权，P5R 不能选择按 MIT 使用。
 
 [English](README.md)
 

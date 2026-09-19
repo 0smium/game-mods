@@ -1,6 +1,6 @@
 # Game Mods
 
-Game mods by [Osmium](https://github.com/0smium). SMTVV modules use MIT; the P5R camera module uses GPL-3.0-or-later. See each module's license.
+Game mods by [Osmium](https://github.com/0smium). SMTVV modules use MIT; the P5R camera module uses GPL-3.0-or-later. See the [license scope](LICENSE); these are separate component licenses, not a choice of license for P5R.
 
 [中文](README.zh-CN.md)
 

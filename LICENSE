@@ -1,21 +1,18 @@
-MIT License
+Licensing by component / 按模块适用许可
 
-Copyright (c) 2026 Osmium (0smium)
+This repository contains independently licensed components. The licenses are
+not interchangeable options for the same code.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+- mods/smtvv/: MIT. See LICENSE-MIT and the applicable third-party notices.
+- mods/p5r/first-person/: GPL-3.0-or-later. See its LICENSE and
+  THIRD_PARTY_NOTICES.md. LICENSE-GPL-3.0 is a root-level copy of the GPL text.
+- Other original repository files: MIT unless explicitly stated otherwise.
+- Third-party code retains its own copyright notices and license terms.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+The MIT license does not replace or override the P5R module's GPL terms.
+Redistributed P5R builds include a separate corresponding-source archive.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+本仓库按模块分别授权，不是同一份代码可以任选 MIT 或 GPL。
+SMTVV 模块采用 MIT；P5R 第一人称模块采用 GPL-3.0-or-later。
+其他原创仓库文件未另行声明时采用 MIT，第三方内容遵循各自许可。
+MIT 不覆盖 P5R 的 GPL 条款。P5R 发布包另附对应源码。
