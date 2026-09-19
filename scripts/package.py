@@ -22,12 +22,12 @@ for feature, filename, folder in [('FirstPerson', 'SMTVVFirstPerson.asi', 'first
         'Project/Binaries/Win64/' + filename: (args.build_dir / filename).read_bytes(),
         'Project/Binaries/Win64/SMTVVCameraRuntime.dll': common,
         'Optional-ASI-Loader/dsound.dll': loader,
-        'INSTALL-EN.md': (repo / 'README.md').read_bytes(),
-        'INSTALL-ZH.md': (repo / 'README.zh-CN.md').read_bytes(),
+        'INSTALL-EN.md': (repo / 'docs/install.md').read_bytes(),
+        'INSTALL-ZH.md': (repo / 'docs/install.zh-CN.md').read_bytes(),
         'MOD-README.md': (repo / 'mods/smtvv' / folder / 'README.md').read_bytes(),
         'LICENSE.txt': (repo / 'LICENSE').read_bytes(),
         'THIRD_PARTY_NOTICES.md': (repo / 'THIRD_PARTY_NOTICES.md').read_bytes(),
-        'VALIDATION.md': (repo / 'VALIDATION.md').read_bytes(),
+        'VALIDATION.md': (repo / 'docs/validation.md').read_bytes(),
     }
     if feature == 'FirstPerson':
         payload['Project/Binaries/Win64/SMTVVFirstPerson.ini.example'] = (repo / 'mods/smtvv/first-person/SMTVVFirstPerson.ini.example').read_bytes()

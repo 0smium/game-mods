@@ -1,33 +1,14 @@
 # 游戏模组
 
-按 `mods/游戏/模组` 分类的开源仓库，作者 Osmium（0smium），MIT 许可。当前只发布真·女神转生 V Vengeance 的两份相机模组。
+Osmium 的游戏模组，源码采用 MIT 许可。
 
-- **第一人称**：探索第一人称、庭院贴近恶魔防消失、眼高／FOV／视角晃动调节，以及第一人称身体／紫色冲刺遮挡处理。
-- **庭院自由视角防透明**：仅处理游戏自带自由摄像机靠近恶魔后的淡出。无快捷键、无配置，安装即生效；它本身不提供自由摄像机。
+[English](README.md)
 
-两份可以单独安装，也可同时安装。共用的 `SMTVVCameraRuntime.dll` 已放进各自下载包，同一版本的该文件完全一致。没有缩放、Boss复活、Debug Tools、画质修改或存档编辑。
+| 游戏 | 模组 | 功能 | 下载 |
+| --- | --- | --- | --- |
+| 真·女神转生 V Vengeance | [第一人称](mods/smtvv/first-person/README.zh-CN.md) | 第一人称探索，可调眼高、FOV 和晃动。 | [安装包](https://github.com/0smium/game-mods/releases/download/smtvv-v1.0.0-rc1/SMTVV-FirstPerson-1.0.0-rc1.zip) |
+| 真·女神转生 V Vengeance | [庭院自由视角防透明](mods/smtvv/garden-freecam-visibility/README.zh-CN.md) | 自由视角靠近恶魔时保持可见，安装即用。 | [安装包](https://github.com/0smium/game-mods/releases/download/smtvv-v1.0.0-rc1/SMTVV-GardenFreecamVisibility-1.0.0-rc1.zip) |
 
-## 安装
+两份可以单独安装，也可以一起使用。安装方法和按键见各模组说明。
 
-关闭游戏，在 Steam 的“已安装文件→浏览”打开游戏目录，把下载包的 `Project` 文件夹解压进去。目标位置是 `Project/Binaries/Win64`，不是 `Content/Paks`。
-
-如果已有 ASI 加载器（如安装过 SMTVFix），沿用即可。全新安装时，再把包内 `Optional-ASI-Loader/dsound.dll` 复制到同一个 Win64 目录；已有同名DLL时不要覆盖，先确认现有加载器。之后从 Steam 正常启动，无需另装启动器或调试工具。Reloaded-II/Vortex专用包尚未验证。
-
-首次运行自动创建 `SMTVVFirstPerson.ini`；调节停止约半秒后自动保存。更新包不携带实际INI，因此不会用默认值覆盖已有调节。只安装自由视角防透明时不会生成此配置，也不占用F3～F6。
-
-## 第一人称快捷键
-
-| 操作 | 按键 | 细调 | Ctrl粗调 | 范围／默认 |
-| --- | --- | --- | --- | --- |
-| 第一人称开关 | F3 | — | Ctrl+F3恢复三项默认值 | 启动开启，F3选择在本次游戏跨图保留 |
-| 眼高偏移 | F4增加，Shift+F4减少 | 1 cm | 5 cm | -20～+100 cm；默认+40 |
-| FOV | F5增加，Shift+F5减少 | 1° | 5° | 60～140；默认110 |
-| 晃动幅度 | F6增加，Shift+F6减少 | 0.25 cm | 1 cm | 0～10 cm；默认5，0关闭 |
-
-Ctrl+Shift+F4/F5/F6粗调减少。到边界停止，不循环跳到另一端。每次按下调整一次；Alt组合忽略。眼高是已有标定基准上的偏移，不是主角绝对身高。晃动是随行走产生的步态起伏，空中不叠加，不改变跳跃／移动。参数较大时可能穿过模型／地形，新增全范围尚未逐值实机验证。
-
-数值可看INI或`SMTVVFirstPerson.status.txt`；本版没有游戏内参数菜单或额外HUD。INI需重启后读取，按键改动则立即生效。控制器仍负责原有移动／观察，调节快捷键需要键盘。
-
-卸载时删除对应`.asi`即可；另一份模组仍在使用时保留共同DLL。两份都卸载后再移除共同DLL，其他模组仍用加载器时不要删除加载器。不与旧开发整合版同时安装。
-
-当前为 **1.0.0-rc1 发布候选**。旧版第一人称、防消失、自由视角防透明和冲刺处理已实机验证；此次拆包、组合安装和细调需要新的验收，不以编译成功代替实机成功。详见[验证记录](VALIDATION.md)。代码和文档开发使用了生成式AI辅助，作者参与需求设计与游戏实测。
+[开发文档（英文）](docs/development.md) · [致谢与许可](THIRD_PARTY_NOTICES.md)

@@ -1,11 +1,17 @@
-# SMTVV Demon Haunt Free Camera Visibility
+# Demon Haunt Freecam Visibility
 
-Prevents the game's **native Demon Haunt free camera** from fading nearby demons when you move in for a close look.
+Keep demons visible when you move close in the game's native Demon Haunt free camera.
 
-Install the mod, enter the Demon Haunt, enable the game's free camera, and approach a demon. No hotkey or configuration is required. The fix does not add a free camera and does not enable or alter the exploration first-person camera. Use it alone or together with [First Person](../first-person/README.md).
+[中文](README.zh-CN.md) · [Download](https://github.com/0smium/game-mods/releases/download/smtvv-v1.0.0-rc1/SMTVV-GardenFreecamVisibility-1.0.0-rc1.zip)
 
-The verified dedicated free-camera begin-overlap event temporarily receives an empty `OtherActor` input. The original event runs once, and the input is restored in the same call even during unwinding. The mod does not change opacity materials, collision, actor visibility flags, dialogue, game saves or other camera overlaps.
+## Install
 
-Install before launching the game. This prevents the confirmed fade trigger; it is not a general recovery tool for demons already faded before the mod loaded, or for unrelated effects. Exit and re-enter the free camera if needed. Early-spawn/all-map coverage is not claimed.
+For the Windows Steam version. Close the game and extract the ZIP's `Project` folder into the game folder. If you do not already have an ASI loader, copy `Optional-ASI-Loader/dsound.dll` into `Project/Binaries/Win64`. Keep an existing loader. Launch normally through Steam.
 
-Disable by removing `SMTVVGardenFreecam.asi` while the game is closed. Keep the shared runtime if First Person is still installed. See [installation](../../../../README.md#installation) and [validation](../../../../VALIDATION.md).
+[Installation & removal details](../../../docs/install.md)
+
+## Use
+
+Enter the Demon Haunt and activate the game's free camera. **No hotkey or configuration is needed.** This mod fixes visibility; it does not add a free camera.
+
+Works alone or with [First Person](../first-person/README.md).

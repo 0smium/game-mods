@@ -1,23 +1,27 @@
 # SMTVV First Person
 
-Exploration first-person camera for the Windows Steam version of **Shin Megami Tensei V: Vengeance**.
+Explore in first person, adjust the camera to your liking, and keep nearby Demon Haunt companions visible. Includes the purple-form sprint effect fix.
 
-- Starts enabled; F3 toggles and retains your choice across map changes within the session.
-- Restores the game's camera during guarded menu/story/camera transitions, then resumes eligible exploration.
-- Prevents the verified Demon Haunt near-camera hide path while first-person is active.
-- Hides local-player body geometry from the owner camera and handles the verified purple-form dash obstruction. Other characters are not globally hidden.
-- Adjustable eye offset, FOV and movement-driven head bob. No changes to movement, jumping, collision sizes or game saves.
+[中文](README.zh-CN.md) · [Download](https://github.com/0smium/game-mods/releases/download/smtvv-v1.0.0-rc1/SMTVV-FirstPerson-1.0.0-rc1.zip)
 
-| Control | Fine step | Ctrl coarse step | Range | Default |
-| --- | --- | --- | --- | --- |
-| F4 eye offset | +1 cm | +5 cm | -20 to +100 cm | +40 cm |
-| F5 FOV | +1 degree | +5 degrees | 60 to 140 | 110 |
-| F6 head bob | +0.25 cm | +1 cm | 0 to 10 cm | 5 cm |
+## Install
 
-Hold Shift with those keys to decrease; Ctrl+Shift decreases by the coarse step. Ctrl+F3 resets these three values without toggling first-person. Bounds clamp instead of wrapping. A fresh press makes one adjustment; no keyboard auto-repeat. Alt combinations are ignored. Set bob to 0 to disable it.
+For the Windows Steam version. Close the game and extract the ZIP's `Project` folder into the game folder. If you do not already have an ASI loader, copy `Optional-ASI-Loader/dsound.dll` into `Project/Binaries/Win64`. Keep an existing loader. Launch normally through Steam.
 
-Tuning saves to `SMTVVFirstPerson.ini` after input settles, and loads at the next launch. The example INI is documentation only; updates do not overwrite your actual INI. The status text file reports the current values and whether config writing failed. There is no in-game settings menu/HUD in this focused release. Keyboard input is needed for tuning; native gamepad movement/look is retained.
+[Installation & removal details](../../../docs/install.md)
 
-Eye offset is relative to the calibrated camera baseline, not an absolute character height. Wide FOV/high eye offsets can show clipping; not every newly allowed value has been visually tested. This is an exploration camera, not a promise of first-person battle/cutscene support. No near-clip override, body-rendering option or arbitrary free flight is added.
+## Controls
 
-For the native Demon Haunt free camera, install the [separate visibility fix](../garden-freecam-visibility/README.md). F3 alone does not enable that fix. See [installation](../../../../README.md#installation) and [validation](../../../../VALIDATION.md).
+First person starts enabled. **F3** toggles it; your choice carries across map changes during the session.
+
+| Key | Adjustment | Default |
+| --- | --- | --- |
+| F4 | Eye height +1 cm | +40 cm offset |
+| F5 | FOV +1° | 110° |
+| F6 | Head bob +0.25 cm | 5 cm |
+
+Hold **Shift** to decrease, **Ctrl** for larger steps, or both for a larger decrease. **Ctrl+F3** restores all three defaults. Set bob to 0 to turn it off. Changes save automatically.
+
+This camera is for exploration. For the game's native Demon Haunt free camera, use the separate [visibility fix](../garden-freecam-visibility/README.md).
+
+[Advanced settings & compatibility](../../../docs/settings.md)
