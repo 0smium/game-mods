@@ -7,7 +7,6 @@ parser.add_argument('--build-dir', type=Path, default=repo / 'build/Release')
 parser.add_argument('--loader-archive', type=Path, required=True, help='Official SMTVFix_1.0.0.zip; hash is verified before extracting only dsound.dll')
 args = parser.parse_args()
 version = '1.0.0-rc1'
-package_revision = 2
 sha = lambda b: hashlib.sha256(b).hexdigest().upper()
 assert sha(args.loader_archive.read_bytes()) == '7D2A3AFBD9054A71FA37EA16B01E886E43E75EC17697498DCD17120EAA758DAD', 'Unexpected loader source archive'
 with zipfile.ZipFile(args.loader_archive) as upstream:
@@ -15,7 +14,7 @@ with zipfile.ZipFile(args.loader_archive) as upstream:
 assert sha(loader) == '2DA9374DBE7089706EC86FE008E406BC9F562E105F7A07D5478542E738A45662'
 common = (args.build_dir / 'SMTVVCameraRuntime.dll').read_bytes()
 assert common[:2] == b'MZ', 'Build the runtime first'
-out = repo / 'dist' / f'package-r{package_revision}'
+out = repo / 'dist' / version
 out.mkdir(parents=True, exist_ok=True)
 # Keep complete license texts and attribution, combined into one file.
 license_sources = [repo / 'LICENSE', *sorted((repo / 'licenses').glob('*.txt'))]
@@ -41,7 +40,7 @@ for feature, filename, folder in [('FirstPerson', 'SMTVVFirstPerson.asi', 'first
     for name in payload:
         assert not name.startswith('/') and '..' not in Path(name).parts
         assert not name.endswith(('.sav', '.pdb', '.log', '.ini')), name
-    name = f'SMTVV-{feature}-{version}-r{package_revision}.zip'
+    name = f'SMTVV-{feature}-{version}.zip'
     target = out / name
     assert not target.exists(), 'Do not overwrite a release artifact; use a new version/directory'
     with zipfile.ZipFile(target, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=9) as archive:

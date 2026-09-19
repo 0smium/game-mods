@@ -2,7 +2,7 @@
 
 用第一人称探索地图，自由调整眼高、FOV 和晃动。贴近庭院恶魔时保持可见，并修复紫色形态冲刺特效挡镜头的问题。
 
-[English](README.md) · [下载安装包](https://github.com/0smium/game-mods/releases/download/smtvv-v1.0.0-rc1-r2/SMTVV-FirstPerson-1.0.0-rc1-r2.zip)
+[English](README.md) · [下载安装包](https://github.com/0smium/game-mods/releases/download/smtvv-v1.0.0-rc1/SMTVV-FirstPerson-1.0.0-rc1.zip)
 
 ## 安装
 

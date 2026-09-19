@@ -2,7 +2,7 @@
 
 Keep demons visible when you move close in the game's native Demon Haunt free camera.
 
-[中文](README.zh-CN.md) · [Download](https://github.com/0smium/game-mods/releases/download/smtvv-v1.0.0-rc1-r2/SMTVV-GardenFreecamVisibility-1.0.0-rc1-r2.zip)
+[中文](README.zh-CN.md) · [Download](https://github.com/0smium/game-mods/releases/download/smtvv-v1.0.0-rc1/SMTVV-GardenFreecamVisibility-1.0.0-rc1.zip)
 
 ## Install
 
